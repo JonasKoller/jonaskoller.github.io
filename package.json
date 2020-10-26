@@ -8,7 +8,7 @@
   "license": "",
   "author": "Jonas Koller",
   "scripts": {
-    "build": "parcel build index.html && copyfiles robots.txt dist",
+    "build": "parcel build --no-source-maps index.html && copyfiles robots.txt dist && copyfiles CNAME dist",
     "dev": "parcel index.html --open",
     "start": "npm run build && npm run dev"
   },

@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(){
+  document.getElementById('title').innerText = '';
   setTimeout(() =>  {
     writeWithDelay("", "Jonas Koller", document.getElementById('title'), 170);
   }, 1000);
